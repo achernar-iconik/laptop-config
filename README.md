@@ -1,13 +1,13 @@
 # laptop-config
 > Instructions and files for configuring iconik MacBook Pro laptop.
 
-## Initialize MacBook Pro
+## 💻 initialize MacBook Pro
 
-`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/achernar-iconik/init/HEAD/init.sh)"`
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/achernar-iconik/bootstrap/HEAD/init.sh)"`
 
 ## Achernar Tools
 
-### applications
+### 📀 applications
 Install the following applications directly from their official websites. Where is available use the M1 chip version of the application.
 
 - [gcloud CLI](https://cloud.google.com/sdk/docs/install)
@@ -18,7 +18,7 @@ Install the following applications directly from their official websites. Where 
 - [Rancher Desktop](https://rancherdesktop.io/)
 - [Visual Studio Code](https://code.visualstudio.com/download)
 
-### homebrew install
+### ⚙️ homebrew install
 Install the following tools using `brew install <tool>` command.
 
 - ansible
@@ -46,12 +46,12 @@ use the following single command in the terminal.
 
 `brew install ansible bento4 ffmpeg ghostscript git helm imagemagick k9s nvm pipenv pipx poppler powerlevel10k python@3.10 python@3.9 terraform ufraw  virtualenv virtualenvwrapper watch`
 
-### npm packages
+### 🔖 npm packages
 Install the following npm packages using `npm install <tool>` command.
 
 - iterm2-tab-set (`npm install -g iterm2-tab-set`)
 
-### VSC extentions
+### ⛓ VSC extentions
 The list shows the preferred visual studio code extentions
 
 - Docker
@@ -66,7 +66,7 @@ The list shows the preferred visual studio code extentions
 - Remote Development
 - YAML
 
-## iconik Tools
+## 🧰 iconik Tools
 The next list of tools are all applications used in iconik for day to day activities.
 
 - [jamf profile](https://sites.google.com/iconik.io/lobby/laptop-management?authuser=0)
@@ -76,13 +76,3 @@ The next list of tools are all applications used in iconik for day to day activi
 - ISG
 - Tunnelblick
 - zoom.us
-
-## initial configuration
-Execute the following to initialize the laptop for the first time.
-
-````
-
-
-
-
-````
