@@ -69,10 +69,10 @@ The list shows the preferred visual studio code extentions
 ## 🧰 iconik Tools
 The next list of tools are all applications used in iconik for day to day activities.
 
-- [jamf profile](https://sites.google.com/iconik.io/lobby/laptop-management?authuser=0)
-- [backblaze](https://sites.google.com/iconik.io/lobby/backups)
 - [1Password](https://1password.com/downloads/mac/)
-- slack
-- ISG
-- Tunnelblick
-- zoom.us
+- [backblaze](https://sites.google.com/iconik.io/lobby/backups)
+- [Iconik Storage Gateway](https://app.iconik.io/help/pages/isg/macos)
+- [jamf profile](https://sites.google.com/iconik.io/lobby/laptop-management?authuser=0)
+- [slack](https://slack.com/downloads/mac)
+- [Tunnelblick](https://tunnelblick.net/downloads.html)
+- [zoom.us](https://zoom.us/download)
