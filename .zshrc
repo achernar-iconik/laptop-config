@@ -18,10 +18,14 @@ export NVM_DIR="$HOME/.nvm"
 ### Achernar Section \/ ###
 ###########################
 
-alias reload='source /Users/achernar/.zshrc'
+alias e='nano /Users/achernar/.zshrc'
+alias r='source /Users/achernar/.zshrc'
+alias reload='r'
 alias c='clear'
 alias ll='ls --color=auto -alF'
 alias k='kubectl'
+alias kube='k'
+alias kn='kubectl config set-context --current --namespace'
 alias ke='kubectl exec -it'
 alias kd='kubectl describe'
 alias kl='kubectl logs'
