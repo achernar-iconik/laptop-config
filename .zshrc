@@ -29,6 +29,15 @@ alias kn='kubectl config set-context --current --namespace'
 alias ke='kubectl exec -it'
 alias kd='kubectl describe'
 alias kl='kubectl logs'
+alias ti='terraform init'
+alias tp='terraform plan'
+alias ta='terraform apply'
+alias taf='terraform apply -auto-approve'
+alias td='terraform destroy'
+alias pa='source ~/.virtualenvs/iconik/bin/activate'
+
+#alias ach='alias | sed "s/(.*)=(.*)/\1   -->   \2/g"'
+alias ach='alias'
 
 export ICONIK_ENV_NAME=achernar
 export PATH=$PATH:/Users/achernar/Library/Python/3.8/bin:/Users/achernar/.local/bin
@@ -44,6 +53,7 @@ alias klocal="
 alias kdev="
         export KUBECONFIG=/Users/achernar/.kube/kubeconfig-achernar-iconik-dev;
         unset CLOUDSDK_CORE_PROJECT;
+	source ~/.virtualenvs/iconik/bin/activate
 	tabset --badge 'dev' --title 'kubeconfig-achernar-iconik-dev' --color green;
 "
 alias kachernar-1="
@@ -59,6 +69,7 @@ alias kiconik-test-eu="
         tabset --badge 'iconik-test-eu' --title 'kubeconfig-iconik-test-eu' --color red;
 "
 
+export PULUMI_CONFIG_PASSPHRASE=
 ###########################
 ### Achernar Section /\ ###
 ###########################

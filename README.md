@@ -28,14 +28,18 @@ Install the following tools using `brew install <tool>` command.
 - git
 - helm
 - imagemagick
+- jq
 - k9s
+- kubernetes.cli
 - nvm
 - pipenv
 - pipx
 - poppler
 - powerlevel10k
+- pulumi
 - python@3.10
 - python@3.9
+- telnet
 - terraform
 - ufraw 
 - virtualenv
@@ -44,7 +48,7 @@ Install the following tools using `brew install <tool>` command.
 
 use the following single command in the terminal.
 
-`brew install ansible bento4 ffmpeg ghostscript git helm imagemagick k9s nvm pipenv pipx poppler powerlevel10k python@3.10 python@3.9 terraform ufraw  virtualenv virtualenvwrapper watch`
+`brew install ansible bento4 ffmpeg ghostscript git helm imagemagick jq k9s kubernetes-cli nvm pipenv pipx poppler powerlevel10k pulumi python@3.10 python@3.9 telnet terraform ufraw virtualenv virtualenvwrapper watch`
 
 ### 🔖 npm packages
 Install the following npm packages using `npm install <tool>` command.
