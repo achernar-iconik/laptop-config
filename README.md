@@ -3,7 +3,7 @@
 
 ## 💻 initialize MacBook Pro
 
-`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/achernar-iconik/bootstrap/HEAD/init.sh)"`
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/achernar-iconik/laptop-config/HEAD/init.sh)"`
 
 ## Achernar Tools
 
